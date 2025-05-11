@@ -304,6 +304,12 @@
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
   }
+  .mb-50 {
+    margin-bottom: calc(var(--spacing) * 50);
+  }
+  .mb-100 {
+    margin-bottom: calc(var(--spacing) * 100);
+  }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
   }
@@ -890,6 +896,16 @@
   .md\:ml-20 {
     @media (width >= 48rem) {
       margin-left: calc(var(--spacing) * 20);
+    }
+  }
+  .md\:ml-40 {
+    @media (width >= 48rem) {
+      margin-left: calc(var(--spacing) * 40);
+    }
+  }
+  .md\:ml-200 {
+    @media (width >= 48rem) {
+      margin-left: calc(var(--spacing) * 200);
     }
   }
   .md\:flex {
